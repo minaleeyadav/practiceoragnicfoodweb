@@ -29,5 +29,18 @@
     } 
 }
 
-
+/* Adjustments for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+    .footer_wrapper {
+      padding-top: 10rem; /* Reduce top padding */
+    }
+    .footer_wrapper .copyright-section {
+      text-align: center;
+      padding: 1rem 0; /* Adjust padding for smaller screens */
+    }
+    .footer_wrapper .copyright-section p {
+      line-height: 1.5; /* Increase line height to make text more readable */
+    }
+  }
+  
 
